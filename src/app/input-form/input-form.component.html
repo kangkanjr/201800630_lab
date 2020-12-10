@@ -1,0 +1,22 @@
+
+<div class="center">
+
+    <h1>Road Traffic Violation Management</h1>
+
+    <form #sForm = "ngForm" (ngSubmit)="getValues(sForm.value)">
+        <input type="text" ngModel name="user"  class="txt" placeholder="Violator's Name:"> 
+          <br> <br>
+
+        <input type="text" ngModel name="adNum"  class="txt" placeholder="Aadhar Number:"> <br> <br>
+        <!-- <label>Aadhar Number: </label>   -->
+
+        <input type="text" ngModel name="off"  class="txt" placeholder="Offence:">
+          <br> <br>
+
+        <input type="text" ngModel name="pAmt" placeholder="Penalty Amount" class="txt">
+          <br> <br>
+
+        <button class="btn">Submit</button>
+    </form>
+
+</div>

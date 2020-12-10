@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lab';
+
+  getValues(val: any){
+    console.warn(val)
+  }
+ 
 }
